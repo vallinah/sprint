@@ -6,7 +6,7 @@ import java.io.PrintWriter;
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 
-public class FrontServlet extends HttpServlet {
+public class FrontController extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         PrintWriter out = response.getWriter();
